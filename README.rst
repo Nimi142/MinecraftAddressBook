@@ -17,23 +17,23 @@ Syntax
 
 | Both of those commands' syntax is the same:
 | To add an address to the address book:
-| ``/(g)address add \<Name> x y z``
+| ``/(g)address add <Name> x y z``
 
 - \<Name> - The name of the address
 
 | To remove an address from the address book:
-| ``/(g)address remove \<Name>``
+| ``/(g)address remove <Name>``
 
 - \<Name> - The name of the address
 - (Note: the auto-completer will show all available options to remove)
 
 | To see addresses from the address book:
-| ``/(g)address show \<Name>*``
+| ``/(g)address show <Name>``
 
 - \<Name> - an optional parameter of the address to be shown. If empty or "*", all addresses will be shown.
 
 | To teleport to an address from the address book:
-| ``/(g)address tp <Name>"`` 
+| ``/(g)address tp <Name>`` 
 
 - \<Name> - The address to tp to.
 
